@@ -3,26 +3,22 @@
 *::after {
     padding: 0;
     margin: 0;
-}
-
-html {
     box-sizing: border-box;
 }
 
 body {
     height: 100vh;
+    background-color: rgb(230, 230, 230);
 }
 
 .grid {
     display: grid;
     grid-template-columns: repeat(16, 1fr);
-    gap: 5px;
     width: 640px;
     height: 640px;
-    background-color: red;
+    background-color: white;
 }
 
 .grid > div {
     height: auto;
-    background-color: greenyellow;
 }
